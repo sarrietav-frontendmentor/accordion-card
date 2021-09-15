@@ -53,6 +53,10 @@ body {
   padding: 2rem;
 
   width: 85%;
+
+  &__header {
+    color: $primary-text-blue;
+  }
 }
 
 .accordion {
@@ -70,6 +74,8 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
+
+    color: $primary-text-blue;
 
     &::after {
       content: '';
@@ -107,5 +113,7 @@ body {
     opacity: 1;
     height: auto;
     margin-top: 1rem;
+
+    color: $very-grayish-blue;
   }
 }

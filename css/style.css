@@ -24,6 +24,8 @@ body {
   align-items: center;
   padding: 2rem;
   width: 85%; }
+  .card__header {
+    color: #1d1e35; }
 
 .accordion {
   border-bottom: 1px solid #e7e7e9;
@@ -35,7 +37,8 @@ body {
   .accordion__title {
     display: flex;
     justify-content: space-between;
-    align-items: center; }
+    align-items: center;
+    color: #1d1e35; }
     .accordion__title::after {
       content: '';
       display: inline-block;
@@ -58,6 +61,7 @@ body {
   .accordion--open .accordion__content {
     opacity: 1;
     height: auto;
-    margin-top: 1rem; }
+    margin-top: 1rem;
+    color: #4a4b5e; }
 
 /*# sourceMappingURL=style.css.map */
