@@ -22,7 +22,8 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 2rem; }
+  padding: 2rem;
+  width: 85%; }
 
 .accordion {
   border-bottom: 1px solid #e7e7e9;
@@ -49,5 +50,14 @@ body {
     font-weight: 700; }
   .accordion--open .accordion__title::after {
     transform: rotate(180deg); }
+  .accordion__content {
+    height: 0;
+    opacity: 0;
+    width: 100%;
+    transition: all 0.1s ease-out; }
+  .accordion--open .accordion__content {
+    opacity: 1;
+    height: auto;
+    margin-top: 1rem; }
 
 /*# sourceMappingURL=style.css.map */
