@@ -84,6 +84,10 @@ body {
     }
   }
 
+  &--open &__title {
+    font-weight: 700;
+  }
+
   &--open &__title::after {
     transform: rotate(180deg);
   }
