@@ -29,10 +29,24 @@ $divider-gray: hsl(240, 5%, 91%);
 body {
   font-family: 'Kumbh Sans', sans-serif;
 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
   height: 100vh;
   background-image: linear-gradient(
     to bottom,
     $gradient-violet 60%,
     $gradient-blue
   );
+}
+
+.card {
+  background-color: #fff;
+  box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.5);
+  border-radius: 1.5rem;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
