@@ -1,0 +1,31 @@
+$primary-text-blue: hsl(238, 29%, 16%);
+$primary-text-red: hsl(14, 88%, 65%);
+
+$gradient-violet: hsl(273, 75%, 66%);
+$gradient-blue: hsl(240, 73%, 65%);
+
+$very-grayish-blue: hsl(237, 12%, 33%);
+$grayish-blue: hsl(240, 6%, 50%);
+
+$divider-gray: hsl(240, 5%, 91%);
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+:root {
+  box-sizing: border-box;
+  font-size: 75%;
+}
+
+@mixin desktop-styles {
+  @media only screen and (min-width: 420px) {
+    @content;
+  }
+}
+
+body {
+  font-family: 'Kumbh Sans', sans-serif;
+}
