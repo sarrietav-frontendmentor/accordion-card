@@ -8,6 +8,8 @@
   font-size: 75%; }
 
 body {
-  font-family: 'Kumbh Sans', sans-serif; }
+  font-family: 'Kumbh Sans', sans-serif;
+  height: 100vh;
+  background-image: linear-gradient(to bottom, #af67e9 60%, #6565e7); }
 
 /*# sourceMappingURL=style.css.map */

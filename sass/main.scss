@@ -28,4 +28,11 @@ $divider-gray: hsl(240, 5%, 91%);
 
 body {
   font-family: 'Kumbh Sans', sans-serif;
+
+  height: 100vh;
+  background-image: linear-gradient(
+    to bottom,
+    $gradient-violet 60%,
+    $gradient-blue
+  );
 }
