@@ -57,6 +57,30 @@ body {
   &__header {
     color: $primary-text-blue;
   }
+
+  &__image {
+    height: 10rem;
+    width: 100%;
+
+    position: relative;
+    text-align: center;
+
+    img {
+      position: absolute;
+    }
+
+    &--woman {
+      top: 50%;
+      left: 50%;
+      transform: translate(-55%, -100%);
+    }
+
+    &--shadow {
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -90%);
+    }
+  }
 }
 
 .accordion {
@@ -103,7 +127,6 @@ body {
   &__content {
     height: 0;
     opacity: 0;
-
     width: 100%;
 
     transition: all 0.1s ease-out;

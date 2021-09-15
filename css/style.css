@@ -26,6 +26,21 @@ body {
   width: 85%; }
   .card__header {
     color: #1d1e35; }
+  .card__image {
+    height: 10rem;
+    width: 100%;
+    position: relative;
+    text-align: center; }
+    .card__image img {
+      position: absolute; }
+    .card__image--woman {
+      top: 50%;
+      left: 50%;
+      transform: translate(-55%, -100%); }
+    .card__image--shadow {
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -90%); }
 
 .accordion {
   border-bottom: 1px solid #e7e7e9;
