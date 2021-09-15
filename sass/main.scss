@@ -21,7 +21,7 @@ $divider-gray: hsl(240, 5%, 91%);
 }
 
 @mixin desktop-styles {
-  @media only screen and (min-width: 420px) {
+  @media only screen and (min-width: 375px) {
     @content;
   }
 }
