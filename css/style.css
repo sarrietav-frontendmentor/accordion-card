@@ -24,6 +24,11 @@ body {
   align-items: center;
   padding: 2rem;
   width: 85%; }
+  @media only screen and (min-width: 375px) {
+    .card {
+      display: grid;
+      grid-template-columns: 1fr .75fr;
+      width: auto; } }
   .card__header {
     color: #1d1e35;
     text-align: center; }

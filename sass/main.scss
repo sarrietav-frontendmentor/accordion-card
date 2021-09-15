@@ -54,6 +54,12 @@ body {
 
   width: 85%;
 
+  @include desktop-styles {
+    display: grid;
+    grid-template-columns: 1fr .75fr;
+    width: auto;
+  }
+
   &__header {
     color: $primary-text-blue;
     text-align: center;
