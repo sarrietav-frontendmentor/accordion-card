@@ -27,7 +27,7 @@ body {
   .card__header {
     color: #1d1e35; }
   .card__image {
-    height: 10rem;
+    height: 8rem;
     width: 100%;
     position: relative;
     text-align: center; }
@@ -36,11 +36,11 @@ body {
     .card__image--woman {
       top: 50%;
       left: 50%;
-      transform: translate(-55%, -100%); }
+      transform: translate(-55%, -90%); }
     .card__image--shadow {
       top: 50%;
       left: 50%;
-      transform: translate(-50%, -90%); }
+      transform: translate(-50%, -75%); }
 
 .accordion {
   border-bottom: 1px solid #e7e7e9;

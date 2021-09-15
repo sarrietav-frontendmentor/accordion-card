@@ -59,7 +59,7 @@ body {
   }
 
   &__image {
-    height: 10rem;
+    height: 8rem;
     width: 100%;
 
     position: relative;
@@ -72,13 +72,13 @@ body {
     &--woman {
       top: 50%;
       left: 50%;
-      transform: translate(-55%, -100%);
+      transform: translate(-55%, -90%);
     }
 
     &--shadow {
       top: 50%;
       left: 50%;
-      transform: translate(-50%, -90%);
+      transform: translate(-50%, -75%);
     }
   }
 }
