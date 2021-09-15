@@ -25,7 +25,8 @@ body {
   padding: 2rem;
   width: 85%; }
   .card__header {
-    color: #1d1e35; }
+    color: #1d1e35;
+    text-align: center; }
   .card__image {
     height: 8rem;
     width: 100%;
