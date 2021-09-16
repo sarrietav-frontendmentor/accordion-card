@@ -24,7 +24,7 @@ body {
   align-items: center;
   padding: 2rem;
   width: 85%; }
-  @media only screen and (min-width: 375px) {
+  @media only screen and (min-width: 376px) {
     .card {
       display: grid;
       grid-template-columns: 1fr 1fr;
@@ -35,7 +35,7 @@ body {
   .card__header {
     color: #1d1e35;
     text-align: center; }
-    @media only screen and (min-width: 375px) {
+    @media only screen and (min-width: 376px) {
       .card__header {
         text-align: left;
         font-size: 2.5rem; } }
@@ -44,7 +44,7 @@ body {
     width: 100%;
     position: relative;
     text-align: center; }
-    @media only screen and (min-width: 375px) {
+    @media only screen and (min-width: 376px) {
       .card__image {
         width: 40%; } }
     .card__image img {
@@ -53,14 +53,14 @@ body {
       top: 50%;
       left: 50%;
       transform: translate(-55%, -90%); }
-      @media only screen and (min-width: 375px) {
+      @media only screen and (min-width: 376px) {
         .card__image--woman {
           transform: translate(-75%, -50%); } }
     .card__image--shadow {
       top: 50%;
       left: 50%;
       transform: translate(-50%, -75%); }
-      @media only screen and (min-width: 375px) {
+      @media only screen and (min-width: 376px) {
         .card__image--shadow {
           transform: translate(-80%, -55%);
           width: 50rem;
@@ -78,7 +78,7 @@ body {
     justify-content: space-between;
     align-items: center;
     color: #1d1e35; }
-    @media only screen and (min-width: 375px) {
+    @media only screen and (min-width: 376px) {
       .accordion__title {
         font-size: 1.25rem; }
         .accordion__title:hover {
