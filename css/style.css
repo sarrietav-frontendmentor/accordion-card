@@ -27,8 +27,11 @@ body {
   @media only screen and (min-width: 375px) {
     .card {
       display: grid;
-      grid-template-columns: 1fr .75fr;
-      width: auto; } }
+      grid-template-columns: 1fr 0.75fr;
+      justify-items: center;
+      width: auto;
+      overflow: hidden;
+      padding: 6rem; } }
   .card__header {
     color: #1d1e35;
     text-align: center; }
@@ -40,16 +43,27 @@ body {
     width: 100%;
     position: relative;
     text-align: center; }
+    @media only screen and (min-width: 375px) {
+      .card__image {
+        width: 40%; } }
     .card__image img {
       position: absolute; }
     .card__image--woman {
       top: 50%;
       left: 50%;
       transform: translate(-55%, -90%); }
+      @media only screen and (min-width: 375px) {
+        .card__image--woman {
+          transform: translate(-80%, -50%); } }
     .card__image--shadow {
       top: 50%;
       left: 50%;
       transform: translate(-50%, -75%); }
+      @media only screen and (min-width: 375px) {
+        .card__image--shadow {
+          transform: translate(-80%, -55%);
+          width: 50rem;
+          min-height: 100%; } }
 
 .accordion {
   border-bottom: 1px solid #e7e7e9;
