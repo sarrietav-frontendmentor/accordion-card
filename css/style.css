@@ -32,6 +32,9 @@ body {
   .card__header {
     color: #1d1e35;
     text-align: center; }
+    @media only screen and (min-width: 375px) {
+      .card__header {
+        text-align: left; } }
   .card__image {
     height: 8rem;
     width: 100%;

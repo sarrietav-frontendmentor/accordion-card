@@ -63,6 +63,10 @@ body {
   &__header {
     color: $primary-text-blue;
     text-align: center;
+
+    @include desktop-styles {
+      text-align: left;
+    }
   }
 
   &__image {
