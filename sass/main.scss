@@ -56,7 +56,7 @@ body {
 
   @include desktop-styles {
     display: grid;
-    grid-template-columns: 1fr 0.75fr;
+    grid-template-columns: 1fr 1fr;
     justify-items: center;
     width: auto;
     overflow: hidden;
@@ -93,7 +93,7 @@ body {
       transform: translate(-55%, -90%);
 
       @include desktop-styles {
-        transform: translate(-80%, -50%);
+        transform: translate(-75%, -50%);
       }
     }
 

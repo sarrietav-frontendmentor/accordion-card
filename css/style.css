@@ -27,7 +27,7 @@ body {
   @media only screen and (min-width: 375px) {
     .card {
       display: grid;
-      grid-template-columns: 1fr 0.75fr;
+      grid-template-columns: 1fr 1fr;
       justify-items: center;
       width: auto;
       overflow: hidden;
@@ -54,7 +54,7 @@ body {
       transform: translate(-55%, -90%); }
       @media only screen and (min-width: 375px) {
         .card__image--woman {
-          transform: translate(-80%, -50%); } }
+          transform: translate(-75%, -50%); } }
     .card__image--shadow {
       top: 50%;
       left: 50%;
